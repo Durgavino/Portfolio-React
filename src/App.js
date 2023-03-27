@@ -1,25 +1,26 @@
-//import React from "react";
+
 //import './App.css';
 import React from "react";
+import { BrowserRouter as Router, Routes} from 'react-router-dom';
 import { Container } from 'react-bootstrap'
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-
-//import 'bootstrap/dist/css/bootstrap.min.css';
+ import About from './Components/About';
 
 function App() {
 
   return (
-    <>
+    <Router>
       <Header />
       <main>
         <Container>
-         
+        <Routes path='/about' Component={About} />
         </Container>
          
-       <Footer />
+      
       </main>
-      </>
+      <Footer />
+      </Router>
       )
 }
 

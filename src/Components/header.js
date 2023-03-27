@@ -1,6 +1,9 @@
 import React from "react";
 import { Navbar, Nav, Container
  } from "react-bootstrap";
+ //import About from './About';
+
+
 const Header =()=>{
 return(
     <header>
@@ -10,7 +13,8 @@ return(
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">About Me</Nav.Link>
+            <Nav.Link href="#About">About Me</Nav.Link>
+         
             <Nav.Link href="#link">Portfolio</Nav.Link>
             <Nav.Link href="#link">Contact</Nav.Link>
             <Nav.Link href="#link">Resume</Nav.Link>
