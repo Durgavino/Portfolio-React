@@ -2,7 +2,10 @@ import React from "react";
 
 const About=()=>{
 return(
-    <div>Aboutme </div>
+   
+    <div> About me  </div> 
+
+    
 )
 }
 export default About

@@ -13,7 +13,7 @@ return(
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#About">About Me</Nav.Link>
+            <Nav.Link href="About">AboutMe</Nav.Link>
          
             <Nav.Link href="#link">Portfolio</Nav.Link>
             <Nav.Link href="#link">Contact</Nav.Link>
