@@ -6,7 +6,9 @@ import { BrowserRouter as Router, Routes,Route} from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
  import About from './Components/About';
-
+ import Contact from './Components/Contact';
+ import Portfolio from './Components/Portfolio';
+ import Resume from './Components/Resume';
 function App() {
 
   return (
@@ -16,6 +18,10 @@ function App() {
         {/* <Container> */}
         <Routes>
           <Route path='/about' Component={About} />
+          <Route path='/portfolio' Component={Portfolio} />
+          <Route path='/contact' Component={Contact} />
+          <Route path='/resume' Component={Resume} />
+          
           </Routes> 
         {/* </Container> */}
          
