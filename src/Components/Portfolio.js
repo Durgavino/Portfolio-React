@@ -9,12 +9,39 @@ import texteditor from '../images/texteditor.png';
 const Portfolio =()=>{
 return(
     <>
-    <img src={Bangé} alt="Bangé" />
-    <img src={weather} alt="weather" />
-    <img src={htmlchallenge} alt="htmlchallenge" />
-    <img src={workdayscheduler} alt="workdayscheduler" />
-    <img src={texteditor} alt="texteditor" />
-    <img src={codequiz} alt="codequiz" />
+   
+    
+<a href=' https://durgavino.github.io/Banger-FoodandMovieapp/index.html' target="_blank" rel='noreferrer'>
+    <img src={Bangé} alt="Bangé" style={{width
+    :'50%',height:'auto'}} />
+    </a>
+    
+
+
+<a href='https://durgavino.github.io/weatherapi-UsinghtmlcssjsAPI/' target="_blank" rel='noreferrer'>
+    <img src={weather} alt="weather" style={{width
+    :'50%',height:'auto'}} />
+    </a>
+
+<a href='https://durgavino.github.io/htmlchallenge/' target="_blank" rel='noreferrer'>
+    <img src={htmlchallenge} alt="htmlchallenge" style={{width
+    :'50%',height:'auto'}} />
+    </a>
+    
+<a href='https://guarded-dusk-61621.herokuapp.com/' target="_blank" rel='noreferrer'>
+    <img src={workdayscheduler} alt="workdayscheduler" style={{width
+    :'50%',height:'auto'}} />
+    </a>
+
+<a href='https://guarded-dusk-61621.herokuapp.com/' target="_blank" rel='noreferrer'>
+    <img src={texteditor} alt="texteditor" style={{width
+    :'50%',height:'auto'}} />
+    </a>
+    
+    <a href='https://durgavino.github.io/codequizchallengewithtimer-usinghtmlcssjs/' target="_blank" rel='noreferrer'>
+    <img src={codequiz} alt="codequiz" style={{width
+    :'50%',height:'auto'}} />
+    </a>
     </>
 )
 }
