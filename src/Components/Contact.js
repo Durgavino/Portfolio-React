@@ -5,20 +5,22 @@ const Contact = () => {
 
         <div>
             <p>Contact Me</p>
-            <label for="fname">Name:</label><br></br>
-            <input type="text" id="fname" name="fname" value="">
-            </input><br></br>
-            <label for="email" pattern=".+@globex\.com" size="30" required>Enter Your Email Address:</label><br></br>
-            <input type="text" id="email" name="email" value="">
-            </input><br></br>
 
-            <textarea rows="4" cols="50" name="comment" form="usrform">
-                Enter the Message...</textarea>
+            <input type='text' placeholder="Full Name" />
+            <br>
+            </br>
 
+            <input type='text' placeholder="Email Address" />
+            <br>
+            </br>
+
+            <textarea rows="4" cols="50" name="comment" placeholder="Enter Your Message ..."  >
+            </textarea>
+<br></br>
 
             <button type="submit" value="Send">Send</button>
             <h1>The button form attribute</h1>
-</div>
+        </div>
 
 
     )
