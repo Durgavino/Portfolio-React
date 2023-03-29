@@ -9,15 +9,13 @@ import texteditor from '../images/texteditor.png';
 const Portfolio = () => {
     return (
         <>
-
-
-            <a href=' https://durgavino.github.io/Banger-FoodandMovieapp/index.html' target="_blank" rel='noreferrer'>
+            <a href='https://durgavino.github.io/Banger-FoodandMovieapp/index.html' target="_blank" rel='noreferrer'>
                 <img src={Bangé} alt="Bangé" style={{
                     width
                         : '50%', height: 'auto'
                 }} />
             </a>
-            <a href='https://github.com/Durgavino/Banger-FoodandMovieapp'>Github</a>
+             <a href='https://github.com/Durgavino/Banger-FoodandMovieapp'>Github</a>
 
 
 
@@ -59,7 +57,7 @@ const Portfolio = () => {
                         : '50%', height: 'auto'
                 }} />
             </a>
-            <a href='https://github.com/Durgavino/codequizchallengewithtimer-usinghtmlcssjs'>Github</a>
+            <a href='https://github.com/Durgavino/codequizchallengewithtimer-usinghtmlcssjs'>Github</a> 
         </>
     )
 }

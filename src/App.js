@@ -8,7 +8,7 @@ import Footer from './Components/Footer';
  import About from './Components/About';
  import Contact from './Components/Contact';
  import Portfolio from './Components/Portfolio';
- import Resume from './Components/Resume';
+//  import Resume from './Components/Resume';
 function App() {
 
   return (
@@ -17,10 +17,11 @@ function App() {
       {/* <main> */}
         {/* <Container> */}
         <Routes>
-          <Route path='/about' Component={About} />
-          <Route path='/portfolio' Component={Portfolio} />
-          <Route path='/contact' Component={Contact} />
-          <Route path='/resume' Component={Resume} />
+          <Route path='/' element={<About />}/>
+          <Route path='/portfolio' element={<Portfolio />}/>
+          <Route path='/contact' element={<Contact />}/>
+          <Route path='/about' element={<About />}/>
+          {/* <Route path='/resume' element={<Resume />} /> */}
           
           </Routes> 
         {/* </Container> */}
