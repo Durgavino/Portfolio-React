@@ -11,7 +11,7 @@ const Contact = () => {
     const emailvalidation = () => {
         const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!pattern.test(email)) {
-            setMessage("Enter the Valid Email Address")
+            setMessage("Enter the Valid Input")
         }
     }
     const handleonchange = (e) => {
@@ -27,7 +27,8 @@ const Contact = () => {
                 <br>
                 </br>
 
-                <input type='text' name="email" value={email} onChange={handleonchange} placeholder="Email Address" {...register('email')} />
+                {/* <input type='text' name="email" value={email} onChange={handleonchange} placeholder="Email Address" {...register('email')} /> */}
+                <input type='text' name="email" value={email} onChange={handleonchange} placeholder="Email Address" register={email} />
                 <br>
                 </br>
 
