@@ -20,21 +20,22 @@ const Contact = () => {
 
     return (
         <form onSubmit={handleSubmit(handleRegistration)}>
-            <div>
-                <p>Contact Me</p>
+            <div className="contactdiv">
+                <p className="contacthead">Contact Me</p>
 
                 <input type='text' placeholder="Full Name" />
                 <br>
                 </br>
-
+      
                 {/* <input type='text' name="email" value={email} onChange={handleonchange} placeholder="Email Address" {...register('email')} /> */}
                 <input type='text' name="email" value={email} onChange={handleonchange} placeholder="Email Address" register={email} />
                 <br>
                 </br>
-
-                <textarea rows="4" cols="50" name="comment" placeholder="Enter Your Message ..." {...register('comment', { required: "Enter Your Message" })} >
+               
+                <textarea className="comment" rows="4" cols="50" name="comment" placeholder="Enter Your Message ..." {...register('comment', { required: "Enter Your Message" })} >
                 </textarea>
                 <br></br>
+                
 
                 <button onClick={emailvalidation} type="submit" value="Send">Send</button>
                 {message}
