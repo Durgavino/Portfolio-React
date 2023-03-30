@@ -4,9 +4,12 @@ import images from '../images/Aboutme.jpg'
 const About = () => {
     return (
         <>
-            <h1> About me  </h1>
-            <p>lorem</p>
+        <div className="aboutdiv">
+       
             <img class="myimage" src={images} alt="My Pic"  />
+        
+            <p className="aboutdes">I am a new Coding Developer and an experienced Customer Service Professional</p>
+            </div>
         </>
 
 

@@ -1,8 +1,6 @@
 
-//import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Routes,Route} from 'react-router-dom';
-//import { Container } from 'react-bootstrap'
 import Header from './Components/Header';
 import Footer from './Components/Footer';
  import About from './Components/About';
@@ -14,8 +12,7 @@ function App() {
   return (
     <Router>
       <Header />
-      {/* <main> */}
-        {/* <Container> */}
+      
         <Routes>
           <Route path='/' element={<About />}/>
           <Route path='/portfolio' element={<Portfolio />}/>
@@ -24,11 +21,7 @@ function App() {
           <Route path='/resume' element={<Resume />} />
           
           </Routes> 
-        {/* </Container> */}
-         
-      
-      {/* </main> */}
-      <Footer />
+            {/* <Footer /> */}
       </Router>
       )
 }

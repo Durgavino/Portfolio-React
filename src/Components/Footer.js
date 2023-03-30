@@ -1,16 +1,12 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+//import { Col } from "react-bootstrap";
 
-const Footer=()=>{
-    return(
-        <footer>
-            <Container>
-                <Row>
-                    <Col className='text-center py-3'>
-                        Copyright &copy; Durga Devi Baskaran
-                    </Col>
-                </Row>
-            </Container>
+const Footer = () => {
+    return (
+        <footer className='footer'>
+            Copyright &copy; Durga Devi Baskaran
+
+
         </footer>
     )
 }
