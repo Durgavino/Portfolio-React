@@ -7,7 +7,6 @@ import Header from './Components/Header';
  import Contact from './Components/Contact';
  import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
-import{Link} from "react-scroll";
 function App() {
 
   return (
@@ -17,9 +16,14 @@ function App() {
         <Routes>
           <Route path='/' element={<About />} smooth={true} offset={-500} duration={500}/>
           {/* <Link to={<About />} smooth={true} offset={-500} duration={500}></Link> */}
-          <Route path='/portfolio' element={<Portfolio />}/>
+          <Route path='/' element={<About />}/>
+
+          <Route path='/portfolio' element={<Portfolio />} smooth={true} offset={-500} duration={500}/>
+
           <Route path='/contact' element={<Contact />}/>
-          <Route path='/about' element={<About />}/>
+
+          <Route path='/About' element={<About />}/>
+          
           <Route path='/resume' element={<Resume />} />
           
           </Routes> 

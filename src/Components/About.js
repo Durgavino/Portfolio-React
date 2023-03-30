@@ -1,5 +1,6 @@
 import React from "react";
-import images from '../images/Aboutme.jpg'
+import images from '../images/Aboutme.jpg';
+//import { NavLink } from "react-router-dom";
 
 const About = () => {
     return (

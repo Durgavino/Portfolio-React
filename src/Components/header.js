@@ -1,8 +1,8 @@
 import React from "react";
-import { Navbar, Nav, Container
+import { Navbar, Container
  } from "react-bootstrap";
 
-
+import {NavLink} from 'react-router-dom';
 
 const Header =()=>{
  return(
@@ -12,13 +12,16 @@ const Header =()=>{
         <Navbar.Brand href="#home">Durga</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="About">AboutMe</Nav.Link>
-         
-            <Nav.Link href="portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="contact">Contact</Nav.Link>
-            <Nav.Link href="resume">Resume</Nav.Link>
-          </Nav>
+          <ul className="headertiles">
+           
+           <li><NavLink to="/about" style={{textDecoration:'none',color:"white"}}>AboutMe</NavLink></li>
+
+           <li><NavLink to="/portfolio" style={{textDecoration:'none',color:"white"}}>Portfolio</NavLink></li>
+
+            <li><NavLink to="/contact" style={{textDecoration:'none',color:"white"}}>Contact</NavLink></li>
+            <li><NavLink to="/resume" style={{textDecoration:'none',color:"white"}}>Resume</NavLink></li>
+            </ul>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>
