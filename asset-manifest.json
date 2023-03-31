@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.7275aa3e.css",
-    "main.js": "/portfolio-react/static/js/main.7a16f7c9.js",
-    "static/media/htmlchallenge.png": "/portfolio-react/static/media/htmlchallenge.97767b9ea8f4f603d495.png",
-    "static/media/weather.png": "/portfolio-react/static/media/weather.291e79d28c09196d22ee.png",
-    "static/media/Aboutme.jpg": "/portfolio-react/static/media/Aboutme.9156acd95646b91311cb.jpg",
-    "static/media/Bangé.PNG": "/portfolio-react/static/media/Bangé.37ea2779277e8683c87f.PNG",
-    "static/media/workdayscheduler.png": "/portfolio-react/static/media/workdayscheduler.41b55f9ec8d005fcc7a8.png",
-    "static/media/codequiz.png": "/portfolio-react/static/media/codequiz.ffa5fb35335eb9728b95.png",
-    "static/media/texteditor.png": "/portfolio-react/static/media/texteditor.15c04bb129762f194a1b.png",
-    "index.html": "/portfolio-react/index.html",
-    "main.7275aa3e.css.map": "/portfolio-react/static/css/main.7275aa3e.css.map",
-    "main.7a16f7c9.js.map": "/portfolio-react/static/js/main.7a16f7c9.js.map"
+    "main.css": "/Portfolio-React/static/css/main.7275aa3e.css",
+    "main.js": "/Portfolio-React/static/js/main.def20b7b.js",
+    "static/media/htmlchallenge.png": "/Portfolio-React/static/media/htmlchallenge.97767b9ea8f4f603d495.png",
+    "static/media/weather.png": "/Portfolio-React/static/media/weather.291e79d28c09196d22ee.png",
+    "static/media/Aboutme.jpg": "/Portfolio-React/static/media/Aboutme.9156acd95646b91311cb.jpg",
+    "static/media/Bangé.PNG": "/Portfolio-React/static/media/Bangé.37ea2779277e8683c87f.PNG",
+    "static/media/workdayscheduler.png": "/Portfolio-React/static/media/workdayscheduler.41b55f9ec8d005fcc7a8.png",
+    "static/media/codequiz.png": "/Portfolio-React/static/media/codequiz.ffa5fb35335eb9728b95.png",
+    "static/media/texteditor.png": "/Portfolio-React/static/media/texteditor.15c04bb129762f194a1b.png",
+    "index.html": "/Portfolio-React/index.html",
+    "main.7275aa3e.css.map": "/Portfolio-React/static/css/main.7275aa3e.css.map",
+    "main.def20b7b.js.map": "/Portfolio-React/static/js/main.def20b7b.js.map"
   },
   "entrypoints": [
     "static/css/main.7275aa3e.css",
-    "static/js/main.7a16f7c9.js"
+    "static/js/main.def20b7b.js"
   ]
 }
