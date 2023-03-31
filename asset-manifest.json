@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.7275aa3e.css",
+    "main.js": "/Portfolio-React/static/js/main.69b44289.js",
+    "static/media/htmlchallenge.png": "/Portfolio-React/static/media/htmlchallenge.97767b9ea8f4f603d495.png",
+    "static/media/weather.png": "/Portfolio-React/static/media/weather.291e79d28c09196d22ee.png",
+    "static/media/Aboutme.jpg": "/Portfolio-React/static/media/Aboutme.9156acd95646b91311cb.jpg",
+    "static/media/Bangé.PNG": "/Portfolio-React/static/media/Bangé.37ea2779277e8683c87f.PNG",
+    "static/media/workdayscheduler.png": "/Portfolio-React/static/media/workdayscheduler.41b55f9ec8d005fcc7a8.png",
+    "static/media/codequiz.png": "/Portfolio-React/static/media/codequiz.ffa5fb35335eb9728b95.png",
+    "static/media/texteditor.png": "/Portfolio-React/static/media/texteditor.15c04bb129762f194a1b.png",
+    "index.html": "/Portfolio-React/index.html",
+    "main.7275aa3e.css.map": "/Portfolio-React/static/css/main.7275aa3e.css.map",
+    "main.69b44289.js.map": "/Portfolio-React/static/js/main.69b44289.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7275aa3e.css",
+    "static/js/main.69b44289.js"
+  ]
+}
